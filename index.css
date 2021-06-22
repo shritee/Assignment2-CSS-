@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(216, 29, 60),rgb(134, 4, 134));
+}
+.col-2{
+    float: left;
+    margin-top: 3vh;
+}
+.col-10{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.col-2 a{
+    border-right: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.col-10 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row2 .btn{
+    padding:0 30px 0 30px ;
+    margin:0 10px 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.row2 .btn:hover{
+    background-color:rgba(228, 141, 11, 0.918);
+    border:rgba(228, 141, 11, 0.918) ;
+    box-shadow: 2px 3px 3px black;
+}
+
+.row2{
+    display:flex;
+    margin-top: 4vh;
+    justify-content: center;
+}
+.col-6
+{
+    background-image: url(./food-4935258_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-6,.col-4{
+    height: 440px;
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+.col-6 h4,h6{
+    display: inline;
+    margin-left: 50px;
+
+}
+.col-6 .col{
+    margin-top: 200px;
+}
+.col-4 div{
+    margin-bottom: 30px;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.col-4 div h1,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    box-shadow:3px 5px 4px  rgba(0, 0, 0, 0.712);
+
+}
+
+
